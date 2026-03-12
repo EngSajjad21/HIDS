@@ -90,7 +90,7 @@ Distributed under the **GNU GPLv3** License. See `LICENSE` for more information.
 
 ## 👨‍💻 Developed By
 
-**Cybersecurity Engineer & Senior Python Developer**
+**Computer Techinical Engineer & Senior Developer**
 
 ---
 *Disclaimer: This tool is intended for defensive security monitoring. Ensure you have the necessary permissions to monitor system files on your target machine.*
