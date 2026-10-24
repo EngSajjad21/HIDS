@@ -80,7 +80,7 @@ def continuous_process_monitor(interval=10):
     for proc in psutil.process_iter():
         try:
             proc.cpu_percent(interval=None)
-        except:
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
             
     try:
